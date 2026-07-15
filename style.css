@@ -277,12 +277,14 @@ ul, ol { list-style: none; }
 .service-card {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 0.85rem;
 }
 
 .service-icon {
-  width: 56px;
-  height: 56px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   background: #fff;
   color: var(--terra);
@@ -490,7 +492,6 @@ ul, ol { list-style: none; }
 .edu-grid-single {
   grid-template-columns: 1fr;
   max-width: 32rem;
-  margin: 0 auto;
 }
 
 .edu-col h3 {
